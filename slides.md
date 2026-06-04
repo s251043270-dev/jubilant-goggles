@@ -158,3 +158,74 @@ Observe the spread and central tendency of the scores to understand student perf
 </iframe>
 :::
 ::::
+---
+
+# Key Statistics for Machine 1
+
+## Conditions:
+- **Machine:** 1
+- **Temperature:** 303
+- **Pressure:** 100
+
+## Part Length (mm)
+- **Mean:** 51.7612
+- **Median:** 51.7723
+- **Standard Deviation:** 0.9821
+
+## Part Resistance (Ohms)
+- **Mean:** 5.5064
+- **Median:** 5.5015
+- **Standard Deviation:** 0.353
+
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length Xbar.one Control Chart
+
+This chart monitors the individual observations of 'Part Length' over time.
+
+- **Blue Dashed Line:** Represents the overall mean of the part length.
+- **Red Solid Lines:** Indicate the Upper Control Limit (UCL) and Lower Control Limit (LCL), set at 3-sigma from the mean.
+- **Points:** Each point is an individual measurement.
+
+Points falling outside the control limits suggest an out-of-control process, requiring investigation.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/part_length_xbar_one_chart.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Resistance Xbar.one Control Chart
+
+This chart monitors the individual observations of 'Part Resistance' over time.
+
+- **Blue Dashed Line:** Represents the overall mean of the part resistance.
+- **Red Solid Lines:** Indicate the Upper Control Limit (UCL) and Lower Control Limit (LCL), set at 3-sigma from the mean.
+- **Points:** Each point is an individual measurement.
+
+Points falling outside the control limits suggest an out-of-control process, requiring investigation.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/part_resistance_xbar_one_chart.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
