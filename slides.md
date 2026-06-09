@@ -229,3 +229,110 @@ Points falling outside the control limits suggest an out-of-control process, req
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length Xbar.one Control Chart - Machine 1 (P=200, T=338)
+
+This chart monitors the individual observations of 'Part Length' over time for Machine 1 under the specified conditions (Pressure = 200, Temperature = 338).
+
+- **Blue Line:** Individual part length measurements.
+- **Green Dashed Line:** Represents the overall mean of the part length.
+- **Orange Solid Lines:** Indicate the Upper Control Limit (UCL) and Lower Control Limit (LCL), set at 3-sigma from the mean.
+Points falling outside the control limits suggest an out-of-control process, requiring investigation.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/m1_temp338_pres200_partlength_control.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Resistance Xbar.one Control Chart - Machine 1 (P=200, T=338)
+
+This chart monitors the individual observations of 'Part Resistance' over time for Machine 1 under the specified conditions (Pressure = 200, Temperature = 338).
+
+- **Blue Line:** Individual part resistance measurements.
+- **Green Dashed Line:** Represents the overall mean of the part resistance.
+- **Orange Solid Lines:** Indicate the Upper Control Limit (UCL) and Lower Control Limit (LCL), set at 3-sigma from the mean.
+Points falling outside the control limits suggest an out-of-control process, requiring investigation.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src="media/plots/m1_temp338_pres200_partresistance_control.html"
+  width="100%"
+  height="500px"
+  style="border:none;"
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 Analysis
+**Conditions:**
+- Temperature: 338K
+- Pressure: 200kPa
+
+**Findings:**
+- Control Chart for Part Length shows the stability of the process.
+- The red lines indicate the UCL and LCL.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m1_length_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 2 Analysis
+**Conditions:**
+- Temperature: 338K
+- Pressure: 200kPa
+
+**Findings:**
+- Control Chart for Machine 2 is displayed on the right.
+- This chart tracks the consistency of Part Length under specified conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m2_control_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 3 Analysis
+**Conditions:**
+- Temperature: 338K
+- Pressure: 200kPa
+
+**Findings:**
+- Control Chart for Machine 3 is displayed on the right.
+- This visualization helps in determining if Machine 3 is in control.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m3_control_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
